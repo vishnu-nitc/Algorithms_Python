@@ -21,7 +21,6 @@ def binarysearch(ar,strt,end,k):
     if(strt>end):
         return -1
     i = (strt+end)/2
-    print ar[i]
     if(ar[i]== k):
         return i
     if (k<ar[i]):
